@@ -14,24 +14,24 @@ body {
     padding: 0;
 }
 
-h1 {
+/* h1 {
     font-family: titillium;
     font-size: 25px;
-}
+} */
 
 header {
     background-color: rgb(33, 177, 41);
     padding: 10px;
 }
 
-nav {
+.nav-bar {
     display: flex;
 }
 
 nav>a {
     display: block;
     width: 400px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
     text-align: center;
     box-sizing: block;
     padding: 20px;
@@ -117,25 +117,6 @@ footer {
     font-family: Sofia;
     src: url(./fonts/Sofia-Regular.ttf);
 }
-
-body {
-    color: #000;
-    background: url(./images/background2.jpg) no-repeat fixed;
-    background-size: cover;
-    margin: 0;
-    font-family: Sofia, sans-serif;
-}
-
-/* img {
-    width: 50px;
-    transform: scale(1);
-    transition-duration: 1s;
-} */
-
-/* img:hover {
-    transform: scale(1.5);
-    transition-timing-function: ease-in-out;
-} */
 
 h1 {
     margin-left: 20px;
@@ -270,21 +251,21 @@ footer {
 }
 
 .back-img {
-    background-image: url(./images/background2.jpg);
     background-size: cover;
     background-position: center;
-    height:100%;
+    height: 90%;
     width:100%;
+    margin-left: 10px;
     position: relative;
 }
 
-.h1-blog{
+.h1-blog {
     position: absolute;
-    top:35%;
+    top: 35%;
     left: 65%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 2vw; /* Utilisez des unités de mesure relatives */
     text-align: center;
     border: solid 2px white;
     border-radius: 5%;
@@ -293,11 +274,11 @@ footer {
 
 .p-img-blog {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 65%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 1.5vw; /* Utilisez des unités de mesure relatives */
     text-align: center;
     border-radius: 5%;
     padding: 10px;
@@ -305,4 +286,50 @@ footer {
     border-radius: 5%;
     font-size: 1.5rem;
 }
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 2vw; /* Utilisez des unités de mesure relatives */
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.info-p {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 1.5vw; /* Utilisez des unités de mesure relatives */
+    text-align: center;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.img-linkedin {
+    width: 100px;
+    height: 100px;
+}
+
+.img-git {
+    width: 100px;
+    height: 100px;
+}
+
 
