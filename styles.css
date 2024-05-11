@@ -210,7 +210,7 @@ button {
 }
 
 button:hover {
-  background-color: white;
+  background-color: gray;
   color: black;
 }
 
@@ -274,7 +274,7 @@ footer {
 
 .h1-blog {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 65%;
   transform: translate(-50%, -50%);
   color: whitesmoke;
@@ -287,7 +287,7 @@ footer {
 
 .p-img-blog {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 65%;
   transform: translate(-50%, -50%);
   color: whitesmoke;
@@ -393,4 +393,12 @@ p.info-p {
   .info-p {
     margin-bottom: 20px;
   }
+}
+
+.article-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom:50px;
 }
